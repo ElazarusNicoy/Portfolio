@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-size: 16px;
     margin: 0;
@@ -21,8 +26,27 @@ a {
     background-color:rgb(255, 255, 255);
 }
 
-.Title {
-    margin-top: 100px;
+.center-wrapper {
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;     
+    gap: 10px;          
+}
+
+.Title, .subTitle, .social-links {
+    margin: 0;
+    padding: 0;
+}
+
+.subTitle {
+    margin-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
 }
 
 .teal-text{
