@@ -28,25 +28,42 @@ a {
 
 .center-wrapper {
     display: flex;
-    flex-direction: column;      
+    flex-direction: column;
     justify-content: center;     
     align-items: center;         
     height: 100vh;     
+    flex-direction: column;
     gap: 10px;          
+    margin: 0 auto;
+    width: 200px;
 }
 
-.Title, .subTitle, .social-links {
+.Title, .social-links {
     margin: 0;
     padding: 0;
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;         
+    flex-direction: column;
+    gap: 10px;          
+    flex-direction: row;
+    position: absolute;
+    margin-right: 290px;
 }
 
-.subTitle {
-    margin-top: 10px;
+.JD, .DevName {
+    text-align: center;
+    
 }
 
 .social-links {
-    display: flex;
+    display: block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
     gap: 15px;
+    margin-top: 195px;
 }
 
 .teal-text{
@@ -58,6 +75,9 @@ a {
     background-color: black;
     color: white;
     padding: 10px 20px;
+    white-space: nowrap;
+    min-width: fit-content;
+    text-align: center;
     border: none;
     border-radius: 5px;
     cursor: pointer;
