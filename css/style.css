@@ -9,6 +9,19 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* nav {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+    text-align: right;
+
+    gap: 20px;
+    padding: 1rem 2rem;
+   
+
+} */
+
 nav {
     position: sticky;
     top: 0;
@@ -16,21 +29,27 @@ nav {
     z-index: 1000;
 }
 
+nav a {
+    color: #333;
+    
+}
+
 nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
-li {
+ li {
     display: inline;
     float: left;
-}
+} 
 
 a {
     display: block;
     padding: 8px;
     background-color:rgb(255, 255, 255);
-}
+} 
+
 
 .center-wrapper {
     display: flex;
@@ -38,25 +57,24 @@ a {
     justify-content: center;     
     align-items: center;         
     height: 100vh;     
-    flex-direction: column;
     gap: 10px;          
     margin: 0 auto;
-    width: 200px;
+    width: fit-content;
 }
 
 .Title, .social-links {
-    /* margin: 0;
-    padding: 0; */
     flex-direction: column;
     justify-content: center;     
     align-items: center;         
     flex-direction: column;
-    /* gap: 10px;           */
     flex-direction: row;
     position: absolute;
     margin-right: 290px;
     white-space: nowrap;
-}
+} 
+
+
+
 
 .JD, .DevName {
     text-align: center;
@@ -70,7 +88,7 @@ a {
 
 .JD {
     font-size: 1.25rem;
-}
+} 
 
 .social-links {
     display: block;
@@ -99,3 +117,4 @@ a {
     cursor: pointer;
     
 }
+
