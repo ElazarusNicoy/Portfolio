@@ -71,23 +71,25 @@ a {
     position: absolute;
     margin-right: 290px;
     white-space: nowrap;
+    margin-bottom: 0;
 } 
-
-
 
 
 .JD, .DevName {
     text-align: center;
+    margin: 0;
     
 }
 
 .DevName {
     font-size: 4rem;
+    white-space: nowrap;
     
 }
 
 .JD {
     font-size: 1.25rem;
+    white-space: nowrap;
 } 
 
 .social-links {
@@ -97,7 +99,7 @@ a {
     align-items: center;
     height: 0vh;
     gap: 15px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .teal-text{
