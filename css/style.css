@@ -9,6 +9,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
+}
 
 nav ul{
     list-style: none;
